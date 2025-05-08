@@ -1,7 +1,7 @@
 import requests
 
 def get_weather(zip_code, country_code, api_key):
-    url = f"https://api.openweathermap.org/data/2.5/weather?zip={zip_code},{country_code}&appid={api_key}&units=metric"
+    url = f"https://api.openweathermap.org/data/2.5/weather?zip={4000},{359}&appid={4a52e4f76c6dd2875d8afec3fc6ec215}&units=metric"
     response = requests.get(url)
     
     if response.status_code == 200:
